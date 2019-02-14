@@ -1,0 +1,38 @@
+﻿Build started 7/4/2017 4:37:08 PM.
+     1>Project "C:\Users\Omar Ahmad\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(119): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(122): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(255): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(657): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(658): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(685): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(688): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(691): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(731): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(732): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(765): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(768): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(812): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(813): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(826): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(836): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(70): warning C4101: 'num_comma' : unreferenced local variable
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(892): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(903): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(917): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(926): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(939): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(948): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(1140): warning C4715: 'area' : not all control paths return a value
+     1>c:\users\omar ahmad\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(1245): warning C4715: 'Is_Intersecting' : not all control paths return a value
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Omar Ahmad\documents\visual studio 2012\Projects\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Omar Ahmad\documents\visual studio 2012\Projects\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Omar Ahmad\documents\visual studio 2012\Projects\ConsoleApplication1\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\Source.obj
+         ConsoleApplication1.vcxproj -> C:\Users\Omar Ahmad\documents\visual studio 2012\Projects\ConsoleApplication1\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\Omar Ahmad\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.65
